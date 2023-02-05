@@ -1,0 +1,128 @@
+User@DESKTOP-JO61BKF MINGW64 /d/J_SPIDER/react_js/03-02-2023
+$ git init
+Initialized empty Git repository in D:/J_SPIDER/react_js/03-02-2023/.git/
+
+User@DESKTOP-JO61BKF MINGW64 /d/J_SPIDER/react_js/03-02-2023 (master)
+$ git remote add origin https://github.com/Pavankumarv-balekoppa/products_cart.git
+
+User@DESKTOP-JO61BKF MINGW64 /d/J_SPIDER/react_js/03-02-2023 (master)
+$ git add .
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.js', LF will be replaced by CRLF the next time Git touches it
+
+User@DESKTOP-JO61BKF MINGW64 /d/J_SPIDER/react_js/03-02-2023 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   README.md
+        new file:   package-lock.json
+        new file:   package.json
+        new file:   public/index.html
+        new file:   public/manifest.json
+        new file:   src/App.css
+        new file:   src/App.js
+        new file:   src/ProductDetails.jsx
+        new file:   src/cart.jsx
+        new file:   src/data/db.json
+        new file:   src/home.jsx
+        new file:   src/index.css
+        new file:   src/index.js
+        new file:   src/navbar.css
+        new file:   src/navbar.jsx
+        new file:   src/products.jsx
+
+
+User@DESKTOP-JO61BKF MINGW64 /d/J_SPIDER/react_js/03-02-2023 (master)
+$ git branch -M main
+
+User@DESKTOP-JO61BKF MINGW64 /d/J_SPIDER/react_js/03-02-2023 (main)
+$ git commit -m "initial commit"
+[main (root-commit) afeb618] initial commit
+ 17 files changed, 30559 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/index.html
+ create mode 100644 public/manifest.json
+ create mode 100644 src/App.css
+ create mode 100644 src/App.js
+ create mode 100644 src/ProductDetails.jsx
+ create mode 100644 src/cart.jsx
+ create mode 100644 src/data/db.json
+ create mode 100644 src/home.jsx
+ create mode 100644 src/index.css
+ create mode 100644 src/index.js
+ create mode 100644 src/navbar.css
+ create mode 100644 src/navbar.jsx
+ create mode 100644 src/products.jsx
+
+User@DESKTOP-JO61BKF MINGW64 /d/J_SPIDER/react_js/03-02-2023 (main)
+$ git push -u origin main
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (22/22), 296.28 KiB | 5.70 MiB/s, done.
+Total 22 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/Pavankumarv-balekoppa/products_cart.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+User@DESKTOP-JO61BKF MINGW64 /d/J_SPIDER/react_js/03-02-2023 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+
+
+
+
+// projects add to git hub using the git hash commands
+
+1---> open the project folder then right click select the git bash
+
+2---> open the git hub profile create the new repository without selecting the redam file
+
+3---> create a repository path initialization to type
+	--> "git init"
+
+4---> copy of the command inside the github profile like 
+	--> "git remote add origin https://github.com/Pavankumarv-balekoppa/products_cart.git"  paste it 
+
+5---> add the files to master using the command
+	--> "git add ."
+
+6---> Check the status file are add or not
+	--> "git status"
+
+7---> move to master to main using the 
+	--> "git branch -M main"
+
+8---> save the file to repository
+	--> "git commit -m "initial commit" "
+
+9---> final submit 
+	--> "git push -u origin main"
+
+10--> then check the git status you get the message
+	On branch main
+	Your branch is up to date with 'origin/main'.
+	nothing to commit, working tree clean
+
+
